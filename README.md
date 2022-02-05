@@ -19,6 +19,10 @@ I had to figure out on my own.
 
 My heart goes out to you dads and moms of the world. You're not alone here.
 
+## Guides
+
+* [Running a Minecraft Server](https://github.com/SteveHNH/minefury/blob/main/guides/Running%20a%20Minecraft%20Server.md)
+
 ## Author
 
 Stephen \
