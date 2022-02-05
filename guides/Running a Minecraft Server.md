@@ -17,7 +17,7 @@ Minecraft sucks.
 ## Java Version Notice
 
 Unless you are going to be downloading a version of Minecraft older than 1.16, you
-should be good using Java 17.
+should be good using Java 17. No guarantees.
 
 [Download it Here](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
@@ -45,16 +45,20 @@ Here's where things get stupid. You now have a Minecraft Server `.jar` file.
 
 DO NOT attempt to run it where it lies. Bad move.
 
-1. Create a directory somewhere else. For the love of God, just make a new directory. Something like
-`C:\Users\YourName\Documents\MinecraftServer-{Version}`. It's a good idea to append the version to the
+1. Create a directory somewhere else.\
+ **For the love of God**, just make a new directory. Something like
+`C:\Users\YourName\Documents\MinecraftServer-{Version}`.\
+It's a good idea to append the version to the
 directory, because you're going to end up with more than one at some point.
 2. Move the `.jar` file to the directory you just created.
 3. Open a command prompt. `Win + R`, type `cmd`, and press enter.
 4. Type `cd {Directory}` and press enter.
 5. Type `java -Xmx1024M -Xms1024M -jar {JarFile}` and press enter. The `-Xmx` and `-Xms` are
-setting your memory minimum and maximum. Java is a deadly memory eating hydra, so set this to something
+setting your memory minimum and maximum.\
+Java is a deadly memory eating hydra, so set this to something
 reasonable. If you have a chonky machine, then set the max to something a bit higher. I use `1024` and `4096` respecively.
-6. Minecraft is going to start up. If Windows yells about network permission, just say YES. If a remote machine in your house wants to connect, you're going to kick yourself in the nuts (providing you have them) if you say NO. Windows Firewall is a big ball of hot garbage.
+6. Minecraft is going to start up. If Windows yells about network permission, just say YES. If a remote machine in your house wants to connect, you're going to kick yourself in the nuts (providing you have them) if you say NO.\
+Windows Firewall is a big ball of hot garbage.
 7. Minecraft started but it's totally going to error out yelling about eulas. In the directory where you put `server.jar` a bunch of crap just got created. Open `eula.txt` and change the first line to `eula=true`. Who gives a crap what you're agreeing to? Nobody.
 8. Run the same command again. Bob's your uncle.
 
